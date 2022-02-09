@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GunZearch - Email</title>
+     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;700&display=swap" rel="stylesheet">
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+    
+  
+
+    <style>
+
+        *{
+            margin: 0px;
+        }
+      
+       body {
+            background-color: #f7f7f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color:#1b1b1b;
+            font-size: 15px;
+            font-family: 'Poppins', sans-serif;
+            padding: 2rem 1rem;
+       }
+
+       .main-container {
+       
+         width: 500px;
+        
+        
+       }
+
+       .insidecont {
+           background-color: white;
+           border-radius: 10px;
+           border: 1px solid rgb(236, 236, 236);
+          
+          
+       }
+
+        .maintext {
+            padding: 40px 20px;
+        }
+
+        footer {
+             display: flex;
+            flex-direction: column;
+             justify-content: center;
+            align-items: center;
+            margin-bottom: 3rem;
+        }
+
+        .logo {
+             display: flex;
+             flex-direction: column;
+             justify-content: center;
+            align-items: center;
+        }
+
+        .og{
+            color: #e64b16; 
+        }
+
+        .orange {
+            background-color: #e64b16;
+            height: 20vh;
+            width: 100%;
+            object-fit: cover;
+            border-top-right-radius: 8px;
+            border-top-left-radius: 8px;
+        }
+
+         .submitbtn {
+             padding: 11px 40px;
+             background-color: #e64b16;
+             color: white;
+             cursor: pointer;
+             font-size: 14px;
+             border: 1px solid #e64b16;
+             border-radius: 8px;
+             font-weight: 700;
+         }
+
+         .spacingm {
+             margin-bottom: 19px;
+         }
+
+         .spacingp {
+             padding-top: 15px;
+         }
+
+         a {
+          text-decoration: none;
+       }  
+
+
+       a.footlowt {
+            font-size: 13px;
+            color: #1b1b1b;
+            padding: 0 5px;
+        }
+
+        .fw {
+            font-weight: 600;
+        }
+            
+        .fa-2x {
+    font-size: 17px;
+    color: gray;
+    padding: 0 4px;
+}
+
+    </style>
+
+    
+</head>
+<body>
+
+
+   <div class="main-container">
+     
+       <div class="logo">
+         <h1>Gun<span class="og">Zearch</span> </h1>
+       </div>
+
+        <div class="insidecont">
+            <div>
+                <img src="https://gunzearch.com/assets/img/pexels-karolina-grabowska-5202438.jpg" alt="" class="orange">
+            </div>
+
+             <div class="maintext ">
+                 <h3 class="spacingm">Congratulations <span>James Duka</span> </h3>
+                 <p class=" spacingm">Your account have successfully been created. Kindly click on the <span class="og fw">Activate</span> button below to verify your account </p> 
+
+                    <div class="spacingm">
+                        <p>Thank You</p>
+                        <h3>The GunZearch Team</h3>
+                    </div>
+
+                     <!-- <button class="submitbtn">Activate</button> -->
+                   <div class="spacingp" >
+                    <a href="#" target="_blank" class="submitbtn">Activate</a>
+                   </div>
+
+
+
+
+             </div>
+
+           <footer> 
+
+            <div class="">
+                <a href="" class="footlowt" target="_blank" ><i class=" fab fa-facebook fa-2x	"></i>
+                </a>
+                <a href="" class="footlowt" target="_blank" ><i class=" fab fa-twitter fa-2x	"></i>   </a>
+                <a href="" class="footlowt" target="_blank" ><i class=" fab fa-instagram fa-2x	"></i></a>
+                <a href="" class="footlowt" target="_blank" ><i class=" fab fa-youtube fa-2x	"></i></a>
+            </div>
+
+               <div class="spacingp">
+                   <a href="" class="footlowt" target="_blank" >Unsubscribe</a>
+                   <a href="" class="footlowt" target="_blank" >Privacy policy    </a>
+                   <a href="" class="footlowt" target="_blank" >Terms and conditions</a>
+               </div>
+               <div class="spacingp"> 
+                   <p>© <span id="demo"> </span>  GUNZEARCH. All rights reserved.</p>
+               </div>
+           </footer>
+        </div>
+   </div>
+  
+
+   <script>
+    const d = new Date();
+    document.getElementById("demo").innerHTML = d.getFullYear();
+    </script>
+</body>
+</html>
